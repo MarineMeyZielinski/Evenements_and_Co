@@ -255,21 +255,22 @@ html {
   margin-top: 50px;
 }
 
-footer {
-  background-color: #f6aa7b;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  font-family: "Lobster Two", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-}
+.footer-style {
+    background-color: #f6aa7b;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    text-align: center;
+  }
 
 footer a {
   text-decoration: none;
@@ -300,17 +301,17 @@ footer a:hover {
 }
 
 .item-4 {
-  grid-row: 3/4;
+  grid-row: 2/3;
   grid-column: 1/3;
 }
 
 .item-5 {
-  grid-row: 3/4;
+  grid-row: 2/3;
   grid-column: 3/5;
 }
 
 .item-6 {
-  grid-row: 3/4;
+  grid-row: 2/3;
   grid-column: 5/7;
 }
 
@@ -504,6 +505,12 @@ form li {
 
 @media screen and (min-width: 320px) and (max-width: 426px) {
 
+  main> .programmes-content{
+
+  display: flex;
+  flex-direction: column;
+  }
+
   .contenu {
     display: none;
   }
@@ -514,10 +521,16 @@ form li {
     margin-top: 80px;
     display: flex;
   }
-  
+
   .contenu-responsive {
-  display: block;
-}
+    display: block;
+    text-align: center;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
   .menu-icon {
     display: flex;
@@ -549,7 +562,7 @@ form li {
     font-size: 20px;
   }
 
-  /*  */
+ 
   #menu-toggle:checked+.menu-icon+.navbar-burger ul {
     /* display: flex; */
     margin-left: 0;
@@ -575,21 +588,125 @@ form li {
   .hero-section img {
     width: -webkit-fill-available;
     height: 230px;
+    margin-top: -65px;
   }
 
-  
+  .event-description img {
+    width: 100px;
+  }
 
-.corporate-party-responsive {
+  .event-description {
+    padding-right: 10px;
+  }
 
+  .corporate-party-responsive img,
+  .wedding-party-responsive img,
+  .proposal-party-responsive img,
+  .evjf-party-responsive img,
+  .birthday-party-responsive img {
+    height: 450px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .corporate-party-responsive h2,
+  .proposal-party-responsive h2,
+  .birthday-party-responsive h2 {
+    font-size: 40px;
+    color: #e67e34;
+    padding: 20px;
+  }
+
+  .wedding-party-responsive,
+  .evjf-party-responsive {
+    background-color: #f6aa7b;
+    padding: 10px;
+  }
+
+  .wedding-party-responsive h2,
+  .evjf-party-responsive h2{
+    font-size: 40px;
+    color:#92572c;
+  }
+
+  .individuals-professionals-responsive {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .individuals-professionals-responsive img {
+    width: 90%;
+    padding: 5px;
+  }
+
+  .map img{
+    width: 85%;
+  }
+
+  .map p {
+    font-size: 20px;
+  }
+
+  .contact-content {
+    font-size: 18px;
+  }
+
+main > .form {
+  width: 100%;
+  max-width: 410px;  
+  height: auto;          
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 30px auto 60px auto; 
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #92572c;
+}
+
+main >.form li {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  width: 100%;
+  padding: 5px;
+}
+
+input, textarea {
+  width: 60%;
+  height: 25px;
+  box-sizing: border-box;
+}
+textarea {
+  height: 60px;
+}
+  .form ul {
+  list-style: none;
+  margin-right: 0px;
+}
+
+main >.form li {
+  padding: 5px;
+  text-align: left;
+}
+
+input {
+  height: 20px;
+  width: 175px;
+}
+
+.button-snd {
+  border-radius: 30px;
+  padding: 5px;
+  height: 30px;
+  font-size: 15px;
 }
 }
-
 
 @media screen and (max-width: 768px) {
 
-  /* .contenu-responsive {
-    display: none;
-  } */
 
   .event-description {
     background-color: #fbbd96;
@@ -701,11 +818,7 @@ form li {
     padding: 5px;
   }
 
-  .footer-style {
-    display: none;
-  }
-
-  .footer-responsive {
+.footer-style {
     background-color: #f6aa7b;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -716,7 +829,7 @@ form li {
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     color: rgb(0, 0, 0);
     margin-top: 20px;
     text-align: center;
