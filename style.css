@@ -106,14 +106,13 @@ html {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   text-align: center;
   height: 500px;
   align-items: center;
 }
 
 .corporate-party h2 {
-  color: #e67e34;
+  color: #92572C;
   font-size: 40px;
 }
 
@@ -133,7 +132,6 @@ html {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   text-align: center;
   height: 500px;
   align-items: center;
@@ -142,7 +140,7 @@ html {
 }
 
 .wedding-party h2 {
-  color: #92572c;
+  color: #4a2b17;
   font-size: 40px;
 }
 
@@ -163,7 +161,6 @@ html {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   text-align: center;
   height: 500px;
   align-items: center;
@@ -191,7 +188,6 @@ html {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   text-align: center;
   height: 500px;
   align-items: center;
@@ -200,7 +196,7 @@ html {
 }
 
 .evjf-party h2 {
-  color: #92572c;
+  color: #4a2b17;
   font-size: 40px;
 }
 
@@ -221,7 +217,6 @@ html {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   text-align: center;
   height: 500px;
   align-items: center;
@@ -246,7 +241,6 @@ html {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   text-align: center;
   font-size: 35px;
 }
@@ -265,7 +259,6 @@ html {
     font-family: "Lobster Two", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: bold;
     font-size: 14px;
     color: rgb(0, 0, 0);
     margin-top: 20px;
@@ -324,7 +317,6 @@ footer a:hover {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
 }
 
 .programmes-description h2 {
@@ -351,7 +343,6 @@ footer a:hover {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   font-size: 20px;
 }
 
@@ -440,7 +431,6 @@ footer a:hover {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   font-size: 30px;
   color: #000000;
 }
@@ -457,7 +447,6 @@ form {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -503,7 +492,7 @@ form li {
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 426px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
 
   main> .programmes-content{
 
@@ -528,7 +517,6 @@ form li {
     font-family: "Lobster Two", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: bold;
     font-size: 20px;
   }
 
@@ -558,7 +546,6 @@ form li {
     font-family: "Lobster Two", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: bold;
     font-size: 20px;
   }
 
@@ -760,7 +747,7 @@ input {
   }
 
   .wedding-party h2 {
-    color: #92572c;
+    color: #4a2b17;
     font-size: 30px;
   }
 
@@ -775,7 +762,7 @@ input {
   }
 
   .evjf-party h2 {
-    color: #92572c;
+    color: #4a2b17;
     font-size: 30px;
   }
 
@@ -808,7 +795,6 @@ input {
     font-family: "Lobster Two", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: bold;
     text-align: center;
     font-size: 25px;
   }
@@ -828,7 +814,6 @@ input {
     font-family: "Lobster Two", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: bold;
     font-size: 10px;
     color: rgb(0, 0, 0);
     margin-top: 20px;
@@ -859,7 +844,6 @@ input {
     font-family: "Lobster Two", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-weight: bold;
     font-size: 20px;
   }
 
