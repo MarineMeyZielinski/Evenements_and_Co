@@ -69,12 +69,12 @@
                     <form class="form">
                         <ul>
                             <li>
-                                <label for="name">Nom&nbsp;:</label>
-                                <input type="text" id="name" name="user_name" required/>
+                                <label for="last-name">Nom&nbsp;:</label>
+                                <input type="text" id="last-name" name="user_name" required/>
                             </li>
                             <li>
-                                <label for="name">Prénom&nbsp;:</label>
-                                <input type="text" id="name" name="user_name" required/>
+                                <label for="first-name">Prénom&nbsp;:</label>
+                                <input type="text" id="first-name" name="user_name" required/>
                             </li>
                             <li>
                                 <label for="mail">E-mail&nbsp;:</label>
@@ -82,7 +82,7 @@
                             </li>
                             <li>
                                 <label for="tel">Numéro de téléphone :</label>
-                                <input type="tel" id="tel" name="tel" required/>
+                                <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" required />
                             </li>
                             <li>
                                 <label for="msg">Message&nbsp;:</label>
@@ -93,15 +93,14 @@
                             <button type="submit" class="button-snd">Envoyer le message</button>
                         </div>
                 </div>
-            </div>
         </main>
     </div>   
     <footer class="footer-style">
         <div class="item-1">
-            <p>Programmes</p>
+            <a href="programmes.html">Programmes</a>
         </div>
         <div class="item-2">
-            <p>Contacts</p>
+            <a href="contacts.html">Contacts</a>
         </div>
         <div class="item-3">
             <p>Réseaux</p>
