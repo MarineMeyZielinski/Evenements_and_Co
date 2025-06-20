@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylenano.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <meta name="description" content="Contactez-nous à Grenoble pour plus d'informations sur nos services. Nous sommes ouverts du mardi au samedi.">
+    <title>Événements & Co</title>
+</head>
+
+<body>
+
+    <div class="home-container">
+        <header>
+            <div class="logo">
+                <img src="IMAGES/logo1.webp" alt="Logo de l'entreprise Événements & Co" aria-label="Logo de l'entreprise Événements & Co" height="170px" width="170px" loading="lazy">
+            </div>
+            <nav class="navbar-desktop">
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="programmes.html">Programmes</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+
+                <!-- Burger menu -->
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="navbar-burger">
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="programmes.html">Programmes</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <!-- Fin burger menu -->
+
+            <div class="hero-section">
+                <img src="IMAGES/bride.webp" alt="Arc de fleurs" aria-label="Arc de fleurs" loading="lazy">
+            </div>
+        </header>
+        <main>
+            <div class="contact-container">
+                <div class="map">
+                    <img src="IMAGES/map.webp" alt="Image du tapis de jeu pour enfant qui sert de map."
+                        aria-label="Image du tapis de jeu pour enfant qui sert de map." loading="lazy">
+                    <p> 742 Evergreen Terrace 38000 Grenoble</p>
+                </div>
+                <div class="contact-content">
+                    <p>
+                        Nous sommes ouverts du mardi au samedi de 10h00 à
+                        12h00 et de 13h30 à 19h00.<br>
+                        Ouvert le lundi uniquement sur rendez-vous.<br> <br>
+                        Veuillez nous contacter pour plus d’informations.
+                    </p>
+                </div>
+            </div>
+                    <form class="form">
+                        <ul>
+                            <li>
+                                <label for="last-name">Nom&nbsp;:</label>
+                                <input type="text" id="last-name" name="user_name" required/>
+                            </li>
+                            <li>
+                                <label for="first-name">Prénom&nbsp;:</label>
+                                <input type="text" id="first-name" name="user_name" required/>
+                            </li>
+                            <li>
+                                <label for="mail">E-mail&nbsp;:</label>
+                                <input type="email" id="mail" name="user_mail" required/>
+                            </li>
+                            <li>
+                                <label for="tel">Numéro de téléphone :</label>
+                                <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" required />
+                            </li>
+                            <li>
+                                <label for="msg">Message&nbsp;:</label>
+                                <textarea id="msg" name="user_message" required></textarea>
+                            </li>
+                        </ul>
+                        <div class="button">
+                            <button type="submit" class="button-snd">Envoyer le message</button>
+                        </div>
+                </div>
+        </main>
+    </div>   
+    <footer class="footer-style">
+        <div class="item-1">
+            <a href="programmes.html">Programmes</a>
+        </div>
+        <div class="item-2">
+            <a href="contacts.html">Contacts</a>
+        </div>
+        <div class="item-3">
+            <p>Réseaux</p>
+        </div>
+        <div class="item-4">
+            <p> Site créé par m.zielinski.webdev@gmail.com</p>
+        </div>
+        <div class="item-5">
+            <p>© copyright</p>
+        </div>
+        <div class="item-6">
+            <p>Mentions légales</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
