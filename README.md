@@ -83,15 +83,20 @@ Des efforts spécifiques ont été faits pour respecter les recommandations WCAG
 
 En réalisant ces test j'ai été amménée à faire des corrections au niveau des contrasts, retrouvables ci-dessous : 
 
-![Aperçu du test de contrast pour #000000 et #FBBD96 ](./assets/Contrast%20black%20and%20pink%20navbar%20and%20footer.png)
-![Aperçu du test de contrast pour #000000 et #0D6EFD](./assets/Contrast%20btn%20programmes.png)
+![Aperçu du test de contrast pour #FBBD96 et #FFFFFF](./assets/Contrast%20h2%20avant%20correction.png)
 ![Aperçu du test de contrast pour #92572C et #FFFFFF](./assets/Contrast%20h2%20fond%20blanc%20correction.png)
+
 ![Aperçu du test de contrast pour #92572C et #F6AA7B](./assets/Contrast%20h2%20index%20avant%20correction%20png.png)
 ![Aperçu du test de contrast pour #4A2B17 et #F6AA7B](./assets/Contrast%20h2%20index%20correction.png)
+
+![Aperçu du test de contrast pour #000000 et #FBBD96 ](./assets/Contrast%20black%20and%20pink%20navbar%20and%20footer.png)
+![Aperçu du test de contrast pour #000000 et #0D6EFD](./assets/Contrast%20btn%20programmes.png)
+
 
 📎 Voir /assets/tests-contrats/ pour les captures des validations.
 
 🎨 Design & Bootstrap
+
 Le design est épuré et s’adapte à tous les supports grâce à Bootstrap :
 
 ✅ Navbar responsive avec menu burger (checkbox + CSS personnalisé).
@@ -103,6 +108,7 @@ Le design est épuré et s’adapte à tous les supports grâce à Bootstrap :
 ✅ Utilisation de boutons, formulaires, et classes utilitaires de Bootstrap.
 
 📷 Captures & Tests
+
 Les dossiers assets/ contiennent :
 
 📸 Captures d’écran de Lighthouse (performance, SEO, accessibilité).
@@ -110,6 +116,7 @@ Les dossiers assets/ contiennent :
 📑 Tests de contrats pédagogiques validant la conformité du projet.
 
 🚀 Comment l’ouvrir localement
+
 Clone le dépôt :
 
 bash
@@ -133,6 +140,7 @@ Création : m.zielinski.webdev@gmail.com
 Technologies : HTML5, CSS3, Bootstrap, bonnes pratiques Green IT
 
 ✅ Améliorations possibles
+
 Ajout de formulaire dynamique avec API (ex. Formspree ou PHP).
 
 Intégration d’un outil comme Ecoindex pour mesure automatisée.
