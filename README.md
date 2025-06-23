@@ -3,6 +3,8 @@
 Bienvenue dans le dépôt du site vitrine Événements & Co, une entreprise fictive spécialisée dans l'organisation d'événements.
 Ce projet met l'accent sur l’éco-conception web, l’accessibilité et l’utilisation de Bootstrap 5 pour une expérience utilisateur fluide et moderne.
 
+
+
 📁 Structure du projet
 bash
 Copier
@@ -81,7 +83,7 @@ Des efforts spécifiques ont été faits pour respecter les recommandations WCAG
 
 ✅ Texte lisible avec des unités accessibles (em, rem).
 
-En réalisant ces test j'ai été amménée à faire des corrections au niveau des contrasts, retrouvables ci-dessous : 
+En réalisant ces tests j'ai été amménée à faire des corrections au niveau des contrasts, retrouvables ci-dessous : 
 
 ![Aperçu du test de contrast pour #FBBD96 et #FFFFFF](./assets/Contrast%20h2%20avant%20correction.png)
 ![Aperçu du test de contrast pour #92572C et #FFFFFF](./assets/Contrast%20h2%20fond%20blanc%20correction.png)
