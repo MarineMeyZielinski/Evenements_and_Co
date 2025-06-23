@@ -3,7 +3,7 @@
 Bienvenue dans le dépôt du site vitrine Événements & Co, une entreprise fictive spécialisée dans l'organisation d'événements.
 Ce projet met l'accent sur l’éco-conception web, l’accessibilité et l’utilisation de Bootstrap 5 pour une expérience utilisateur fluide et moderne.
 
-
+Link : evenement-and-co-projet2.netlify.app
 
 📁 Structure du projet
 bash
